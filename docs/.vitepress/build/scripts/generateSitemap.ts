@@ -1,7 +1,8 @@
 import { execSync } from 'node:child_process'
 import { createWriteStream } from 'node:fs'
 import type { SiteConfig } from 'vitepress'
-import rm from 'rimraf'
+// @ts-ignore
+import { rm } from 'rimraf'
 import { SitemapStream } from 'sitemap'
 import { resolve } from 'pathe'
 import { site } from '../../meta.cz-git'

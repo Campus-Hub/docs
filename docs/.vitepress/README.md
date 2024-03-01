@@ -1,12 +1,7 @@
 ```
-卷 Mobile 的文件夹 PATH 列表
-卷序列号为 D895-766F
-F:.
 │  components.d.ts
 │  config.ts
-│  meta.cz-git.ts
 │  meta.ts
-│  tree.txt
 │  vite.config.ts
 ├─build
 │  │  docSearchConfig.json

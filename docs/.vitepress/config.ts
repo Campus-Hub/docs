@@ -1,9 +1,9 @@
 import {DefaultTheme, defineConfig} from 'vitepress';
 import timeline from 'vitepress-markdown-timeline';
-// import { alertPlugin } from "markdown-it-github-alert";
-import markdownItAnchor from 'markdown-it-anchor'
 // FIXME yarn add markdown-it-wikilinks failed since Make Command.
 // import wikilinks from 'markdown-it-wikilinks'
+// import { alertPlugin } from "markdown-it-github-alert";
+// import markdownItAnchor from 'markdown-it-anchor'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
@@ -19,7 +19,7 @@ export default defineConfig({
     ],
 
 
-    // base: '/courses/',
+    base: '/web/',
     // srcDir: '/post/',
     assetsDir: './static',
 
@@ -77,6 +77,10 @@ export default defineConfig({
                 }
             }
         },
+        editLink: {
+            pattern: 'https://github.com/Campus-Hub/web/edit/main/docs/:path',
+            text: '在 GitHub 上编辑此页面',
+        },
         socialLinks: [
           { icon: "github", link: "https://github.com/Campus-Hub/web" },
           {
@@ -89,7 +93,7 @@ export default defineConfig({
         // docFooter: { prev: '上一篇', next: '下一篇' },
         footer: {
             message: 'Released under the <a herf="https://github.com/">CC BY-NC-SA 4.0</a> / <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.\n',
-            copyright: 'Copyright © 2023 <a href="https://github.com/Anxiu0101">CampusHub Online Contributors.</a>'
+            copyright: 'Copyright © 2023 <a href="https://github.com/Campus-Hub">CampusHub Online Contributors.</a>'
         },
     },
 
@@ -98,9 +102,13 @@ export default defineConfig({
         // anchor: { permalink: false },
         // options for markdown-it-anchor
         // https://github.com/valeriangalliat/markdown-it-anchor#usage
-        anchor: {
-            permalink: markdownItAnchor.permalink.headerLink()
-        },
+        // FIXME 以下可能存在一个导致标题内容渲染错误为空的问题
+        // anchor: {
+        //     // permalink: markdownItAnchor.permalink.headerLink()
+        //     // https://github.com/vuejs/vitepress/issues/1927
+        //     // customize how anchors are generated
+        //     // slugify: str => encodeURIComponent(str)
+        // },
 
         // options for markdown-it-toc
         // options for @mdit-vue/plugin-toc

@@ -2,30 +2,34 @@
 
 ## Changelog
 
+::: timeline 2024-05-01
+- [Build] **Planing** Release beta 0.1, Stay tuned for the launch!
+- Subsequent ongoing optimization and updates ...
+:::
+
+::: timeline 2024-04-01
+- [Feat] **Planing** Implemented i18n with both Chinese and English. 
+- [Feat] **Planing** AI chat box and MLOps dataflow.
+- [Test] **Planing** Conduct system testing and optimization, and address any potential bugs.
+:::
+
+::: timeline 2024-03-01
+- [Feat|Course] Finished CourseList Feed and Course Detail Card Components.
+- [Feat|User] Finished User and Authority Basic Features by Casdoor.
+- [Feat|Comment] Integrate [Giscus](https://giscus.app/zh-CN) into the web page system.
+- [Feat] Optimization UI components: navigation/sidebar/anchor.
+- [Build] Containerize and CI/CD-enable the backend service environment.
+::: 
+
+::: timeline 2023-01-15
+- [Conf] Released OSS feature.
+- [Feat] Established online markdown editor (testing).
+- [Conf] Added external configuration of vitepress(rss, search, math equation support, timeline)
+:::
+
 ::: timeline 2023-12-04
-- Initialized the site.
-- Wrote the requirements Documents.
-- Established the basic framework of Server.
+- [Build] Initialized the site.
+- [Docs] Wrote the requirements Documents.
+- [Build] Established the basic framework of Server.
 :::
 
-::: timeline 2023-12-15
-- plan to release OSS feature.
-- plan to import online markdown editor.
-:::
-
-
-
-# Configuring TailwindCSS to work with Vitepress
-
-<div class="flex flex-col items-center mt-10 sm:flex-row">
-  <img src="../public/logo.png" alt="Vite package logo" width="200" height="200" style="float: left; margin-right: 12px;" />
-  <p class="italic text-gray-500">
-    I've found myself feeling limited by the styles provided by the framework so I looked into what it takes to use a stylesheet.
-  </p>
-</div>
-
-A bit of searching around ended up pointing me towards [this Github issue](https://github.com/vuejs/vitepress/issues/62) which helps a user integrate [Tailwindcss](https://tailwindcss.com/), a framework I've been using professionally and in personal projects for awhile now.
-
-According to the responses within the issue, there are two ways of bringing in TailwindCSS:
-
-**1. Import TailwindCSS through their CDN:**
