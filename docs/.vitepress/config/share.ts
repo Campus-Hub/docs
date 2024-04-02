@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { generateSitemap } from '../build'
-import { github, keywords, name, ogTitle } from '../meta.cz-git'
+import { github, keywords, name, ogTitle } from '../meta.example'
 import { ImagePlugin, useCodeGroup, useCodeGroupItem } from '../theme/components/markdown'
 
 export const shareConfig = defineConfig({

@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./docs/.vitepress/*"]
+    },
     "module": "esnext",
     "target": "esnext",
     "useDefineForClassFields": true,

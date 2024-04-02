@@ -3,14 +3,14 @@ export const name = 'CampusHub-Online'
 export const site = 'https://campushub.online'
 export const siteCN = 'https://campushub.online/zh/'
 export const logo = 'https://campushub.online/images/logo.png'
-export const keywords = 'cz-git, czg, cli, commitizen, commitizen cli,commitizen adapter, git-cz'
+export const keywords = 'online learning, e-learning, course resource, mooc'
 export const descriptionEN
-    = 'Support OpenAI, and more engineered, lightweight, customizable, standard output format commitizen adapter and Git commit CLI'
+    = 'Campus-hub online open-resource project is dedicated to providing open source course services for a wide range of users, aiming to create an open and inclusive learning platform.'
 export const descriptionCN
-    = '支持 OpenAI 自动生成描述，且工程性更强，轻量级，高度自定义，输出标准格式的 commitizen 适配器与 git commit 命令行工具。'
+    = 'Campus-hub online 开源项目致力于为广大用户提供开源课程服务，旨在打造一个开放、包容的学习平台。'
 
 /** social links */
-export const ogTitle = 'cz-git - commitizen adapter and CLI'
+export const ogTitle = 'Campus-hub online | E-Learning Platform'
 export const ogImg = 'https://campushub.online/images/og.png'
 export const ogImgCN = 'https://campushub.online/images/og-zh.png'
 export const github = 'https://github.com/Campus-Hub/web'

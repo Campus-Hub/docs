@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
-import { github, npm, version } from '../../meta.cz-git'
+import { github, npm, version } from '../../meta.example'
 
 export const nav: DefaultTheme.NavItem[] = [
     {

@@ -1,6 +1,12 @@
+---
+layout: page
+---
 <script setup>
-// https://vitepress.dev/reference/default-theme-team-page
-import { VPTeamMembers } from 'vitepress/theme';
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme';
 
 const members = [
   {
@@ -12,11 +18,29 @@ const members = [
       { icon: 'twitter', link: 'https://twitter.com/Anxiu0101' }
     ]
   },
+  {
+    avatar: 'https://www.github.com/Anxiu0101.png',
+    name: 'Anxiu0101',
+    title: 'Developer',
+    links: [
+      { icon: 'github', link: 'https://github.com/Anxiu0101' },
+      { icon: 'twitter', link: 'https://twitter.com/Anxiu0101' }
+    ]
+  },
 ]
 </script>
 
-# Our Team
-
-Say hello to our awesome team.
-
-<VPTeamMembers size="small" :members="members" />
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+      Our Team
+    </template>
+    <template #lead>
+      The development of CampusHub-Online is guided by an international
+      team, some of whom have chosen to be featured below.
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers
+    :members="members"
+  />
+</VPTeamPage>

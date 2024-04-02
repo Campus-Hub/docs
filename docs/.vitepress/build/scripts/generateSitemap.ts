@@ -5,7 +5,7 @@ import type { SiteConfig } from 'vitepress'
 import { rm } from 'rimraf'
 import { SitemapStream } from 'sitemap'
 import { resolve } from 'pathe'
-import { site } from '../../meta.cz-git'
+import { site } from '../../meta.example'
 
 /**
  * Main: Generate sitemap.xml

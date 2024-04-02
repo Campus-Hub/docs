@@ -1,5 +1,5 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import { descriptionCN, github, ogImgCN, siteCN } from '../meta.cz-git'
+import { descriptionCN, github, ogImgCN, siteCN } from '../meta.example'
 import nav from './navbar/zh'
 import sidebar from './sidebar/zh'
 

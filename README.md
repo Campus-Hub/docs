@@ -25,8 +25,8 @@ yarn serve
 
 ## TODO List
 
-- [ ] FIX titles Style Problem.
-- [ ] FIX course bugs about lastupdate and others.
+- [x] FIX titles Style Problem.
+- [x] FIX course bugs about lastupdate and others.
 - [ ] Dynamic
   - [ ] Create Course Feed List for search/list courses.
   - [ ] Create dynamic navigation (different course own different navigation.)

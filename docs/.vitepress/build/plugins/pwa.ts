@@ -8,7 +8,7 @@ import {
   googleStaticFontRegex,
   jsdelivrCDNRegex,
   name,
-} from '../../meta.cz-git'
+} from '../../meta.example'
 
 /**
  * Vite Plugin PWA uses Workbox  library to build the service worker

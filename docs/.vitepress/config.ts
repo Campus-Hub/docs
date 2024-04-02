@@ -31,6 +31,15 @@ export default defineConfig({
         // logo: "",
         // set navigation in navbar.
         nav: nav(),
+        socialLinks: [
+            { icon: "github", link: "https://github.com/Campus-Hub/web" },
+            {
+                icon: {
+                    svg: `<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 -960 960 960\" width=\"24\"><path d=\"M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z\"/></svg>`
+                },
+                link: "mailto://anxiu.fyc@foxmail.com"
+            }
+        ],
         // TODO 异步调用后端检查可用课程列表进行配置。
         sidebar: {
             '/course/LinearAlgebra_ZJU/': { base: '/course/LinearAlgebra_ZJU/', items: sidebarLinearAlgebraZJU() },
@@ -81,18 +90,9 @@ export default defineConfig({
             pattern: 'https://github.com/Campus-Hub/web/edit/main/docs/:path',
             text: '在 GitHub 上编辑此页面',
         },
-        socialLinks: [
-          { icon: "github", link: "https://github.com/Campus-Hub/web" },
-          {
-              icon: {
-                  svg: `<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24\" viewBox=\"0 -960 960 960\" width=\"24\"><path d=\"M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z\"/></svg>`
-              },
-              link: "mailto://anxiu.fyc@foxmail.com"
-          }
-        ],
         // docFooter: { prev: '上一篇', next: '下一篇' },
         footer: {
-            message: 'Released under the <a herf="https://github.com/">CC BY-NC-SA 4.0</a> / <a href="https://github.com/vuejs/vitepress/blob/main/LICENSE">MIT License</a>.\n',
+            message: 'Released under the <a herf="https://github.com/">CC BY-NC-SA 4.0</a> / <a href="https://github.com/Campus-Hub/web/blob/main/LICENSE">MIT License</a>.\n',
             copyright: 'Copyright © 2023 <a href="https://github.com/Campus-Hub">CampusHub Online Contributors.</a>'
         },
     },

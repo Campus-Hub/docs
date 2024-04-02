@@ -1,8 +1,8 @@
 [package]
 name = "app"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "Campus-hub online open-resource project is dedicated to providing open source course services for a wide range of users, aiming to create an open and inclusive learning platform."
+authors = ["Anxiu0101"]
 license = ""
 repository = ""
 default-run = "app"

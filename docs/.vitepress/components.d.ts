@@ -12,5 +12,7 @@ declare module 'vue' {
         CodeGroupItem: typeof import('./theme/components/CodeGroupItem.vue')['default']
         HomePage: typeof import('./theme/components/HomePage.vue')['default']
         CourseListFeed: typeof import('./theme/components/CourseListFeed.vue')['default']
+        CourseFeed: typeof import('./theme/components/CourseFeed.vue')['default']
+        CourseCard: typeof import('./theme/components/CourseCard.vue')['default']
     }
 }
