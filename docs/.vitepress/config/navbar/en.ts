@@ -1,46 +1,27 @@
 import type { DefaultTheme } from 'vitepress'
-import { github, npm, version } from '../../meta.example'
 
 export const nav: DefaultTheme.NavItem[] = [
     {
-        text: 'Guide',
-        link: '/guide/',
-        activeMatch: '/guide/',
+        text: "Course",
+        link: '/course/',
+        activeMatch: '/course',
     },
     {
-        text: 'Config',
-        link: '/config/',
-        activeMatch: '/config/',
-    },
-    {
-        text: 'Recipes',
-        link: '/recipes/openai',
-        activeMatch: '/recipes/',
-    },
-    {
-        text: 'CLI',
-        link: '/cli/',
-        activeMatch: '/cli/',
-    },
-    {
-        text: `v${version}`,
+        text: "About us",
         items: [
             {
+                text: 'Team Member',
+                // TODO: set the Team Member link
+                link: '/about/team-member',
+            },
+            {
                 text: 'Changelog',
-                link: `${github}/blob/main/CHANGELOG.md`,
-            },
-            {
-                text: 'NPM',
-                link: npm,
-            },
-            {
-                text: 'Playground',
-                link: 'https://github.com/Zhengqbbb/czgit-playground',
+                link: '/about/changelog',
             },
             {
                 text: 'FAQ',
-                link: '/faq/',
-            },
+                link: '/about/faq',
+            }
         ],
     },
 ]

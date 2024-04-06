@@ -14,6 +14,12 @@ Campus-hub online 项目致力于为广大用户提供开源课程服务，旨�
 
 ## Courses List
 
+<script setup>
+import CourseFeed from '../.vitepress/theme/components/CourseFeed.vue';
+</script>
+
+<CourseFeed />
+
 ::: tip [MIT18.06|Linear Algebra](LinearAlgebra_MIT/index.md) | [Lecturer]()
 Discipline -- #Tags #Tags
 

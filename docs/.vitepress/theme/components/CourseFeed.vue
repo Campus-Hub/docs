@@ -2,7 +2,6 @@
 import { defineComponent } from 'vue';
 import { Course, localCourses } from "@/theme/types/course";
 import CourseCard from '@/theme/components/CourseCard.vue';
-
 export default defineComponent({
   name: 'CourseFeed',
   components: {

@@ -1,7 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
-import {Course} from "@/theme/types/course";
-
+import {Course} from "../theme/types/course";
 export default defineComponent({
   name: 'CourseCard',
   props: {
